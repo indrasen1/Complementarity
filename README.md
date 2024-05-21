@@ -18,6 +18,8 @@ The term `complementarity' is based on Niels Bohr's article in Philosophy of Sci
 
 $$ | \psi \rangle = \Sigma_x \psi_x | x \rangle $$
 
+![Wavefunctions illustrating the uncertainty tradeoff in position and momentum representations](20240521_illustration.png)
+
 
 
 ## References 
