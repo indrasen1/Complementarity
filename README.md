@@ -28,7 +28,11 @@ In order to obtain a different but equally informative representation of the sam
 
 $$ | p \rangle := \frac{1}{\sqrt{N}} \Sigma_x e^{2\pi j \frac{px}{N}} | x \rangle $$
 
-where p = -M, -M+1, ... M-1, M (similar to x). Each of the p-basis wavefunctions is a complex exponential 
+where p = -M, -M+1, ... M-1, M (similar to x). Each of the p-basis wavefunctions is a complex exponential, with a frequency proportional to p. The analogy with a physical momentum can be made more precise by thinking of traveling waves, but we could have chosen to call this something like a 'wavenumber' basis as well. 
+
+It's easy to verify that the representation of our wavefunction in the momentum basis is simply the discrete Fourier transform of the representation in the position basis:
+
+
 
 ![Wavefunctions illustrating the uncertainty tradeoff in position and momentum representations](20240521_illustration.png)
 
