@@ -16,7 +16,13 @@ The term `complementarity' is based on Niels Bohr's article in Philosophy of Sci
 
 ## Notation and key results
 
+We consider a 1D grid of points x = -M, -M+1, ... -1, 0, 1, ... M-1, M and the discrete delta at each of the grid points as the basis (N = 2M+1 is the total number of grid points and the dimensionality of our setup). In this case, an arbitrary wavefunction can be expressed as:
+
 $$ | \psi \rangle = \Sigma_x \psi_x | x \rangle $$
+
+where $$ | x \rangle $$ is a position basis vector. In order to obtain a different but equally informative representation of the same wavefunction, we consider a new basis:
+
+$$ | p \rangle := \frac{1}{\sqrt{N}} \Sigma_x e^{2\pi j \frac{px}{N}} | x \rangle $$
 
 ![Wavefunctions illustrating the uncertainty tradeoff in position and momentum representations](20240521_illustration.png)
 
