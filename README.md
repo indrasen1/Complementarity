@@ -24,7 +24,7 @@ $$ | \psi \rangle = \Sigma_x \psi_x | x \rangle $$
 
 [1] [N. Bohr, "Causality and complementarity", Philosophy of Science, vol. 4, no. 3, July 1937](https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/causality-and-complementarity/C193DEAB5C18330DD3739664761E8ECE)
 
-[2] [N. Bohr, "On the notions of causality and complementarity", Science, Vol. 111, Janualy 1950](https://www.science.org/doi/abs/10.1126/science.111.2873.51)
+[2] [N. Bohr, "On the notions of causality and complementarity", Science, Vol. 111, January 1950](https://www.science.org/doi/abs/10.1126/science.111.2873.51)
 
 [3] [R. Shankar, "Principles of quantum mechanics", 2nd edition, Chapter 9: the Heisenberg Uncertainty Relations (pg. 237-241)]
 
