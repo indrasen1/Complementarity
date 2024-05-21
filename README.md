@@ -20,9 +20,15 @@ We consider a 1D grid of points x = -M, -M+1, ... -1, 0, 1, ... M-1, M and the d
 
 $$ | \psi \rangle = \Sigma_x \psi_x | x \rangle $$
 
-where $$ | x \rangle $$ is a position basis vector. In order to obtain a different but equally informative representation of the same wavefunction, we consider a new basis:
+where $$ | x \rangle $$ is a position basis vector. The basis is complete and orthonormal:
+
+$$ \langle x' | x \rangle = \delta_{x',x} $$
+
+In order to obtain a different but equally informative representation of the same wavefunction, we consider a new basis:
 
 $$ | p \rangle := \frac{1}{\sqrt{N}} \Sigma_x e^{2\pi j \frac{px}{N}} | x \rangle $$
+
+where p = -M, -M+1, ... M-1, M (similar to x). Each of the p-basis wavefunctions is a complex exponential 
 
 ![Wavefunctions illustrating the uncertainty tradeoff in position and momentum representations](20240521_illustration.png)
 
