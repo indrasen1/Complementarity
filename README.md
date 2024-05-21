@@ -56,6 +56,10 @@ where:
 
 $$ r = e^{2 \pi j (x_1 - x_2) / N } $$
 
+Then, for even zero-centered wavefunctions, the Cauchy-Schwartz inequality can be expressed as:
+
+$$ \sigma_X^2 \sigma_P^2 = | \hat{X} | \psi \rangle |^2 | \hat{P} | \psi \rangle |^2 \ge | \langle \psi | \hat{X} \hat{P} | \psi \rangle |^2 $$
+
 
 
  
