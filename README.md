@@ -58,7 +58,11 @@ $$ r = e^{2 \pi j (x_1 - x_2) / N } $$
 
 Then, for even zero-centered wavefunctions, the Cauchy-Schwartz inequality can be expressed as:
 
-$$ \sigma_X^2 \sigma_P^2 = | \hat{X} | \psi \rangle |^2 | \hat{P} | \psi \rangle |^2 \ge | \langle \psi | \hat{X}^{\dag} \hat{P} | \psi \rangle |^2 $$
+$$ \sigma_X^2 \sigma_P^2 = | \hat{X} | \psi \rangle |^2 | \hat{P} | \psi \rangle |^2 \ge | \langle \psi | \hat{X}^{*} \hat{P} | \psi \rangle |^2 $$
+
+The right hand side can be split into the real and imaginary parts and leads to expressions involving the commutator and anticommutator of the operators. This leads to the expression:
+
+$$ \sigma_X^2 \sigma_P^2 \ge \frac{1}{4}| \langle \psi | \{\hat{X}, \hat{P}\} | \psi \rangle |^2 + \frac{1}{4} | \langle \psi | [\hat{X}, \hat{P}] \psi \rangle |^2 $$
 
 
 
