@@ -62,12 +62,23 @@ $$ \sigma_X^2 \sigma_P^2 = | \hat{X} | \psi \rangle |^2 | \hat{P} | \psi \rangle
 
 The right hand side can be split into the real and imaginary parts and leads to expressions involving the commutator and anticommutator of the operators. This leads to the expression:
 
-$$ \sigma_X^2 \sigma_P^2 \ge \frac{1}{4}| \langle \psi | \{\hat{X}, \hat{P}\} | \psi \rangle |^2 + \frac{1}{4} | \langle \psi | [\hat{X}, \hat{P}] \psi \rangle |^2 $$
+$$ \sigma_X^2 \sigma_P^2 \ge \frac{1}{4}| \langle \psi | {\hat{X}, \hat{P}} | \psi \rangle |^2 + \frac{1}{4} | \langle \psi | [\hat{X}, \hat{P}] | \psi \rangle |^2 $$
+
+We may write down analytical expressions for the commutator and anticommutator operators. This allows us to compare the empirical uncertainty product with the theoretical lower bound imposed by the Cauchy-Schwartz inequality. Please see the notebook for such detailed plots. The expressions for the commutator and anticommutator have been omitted here but their matrix representation has been plotted in the notebook. The case of the Gaussian family of functions is particularly interesting.
+
+We draw attention to states that are expected to saturate the lower bound of the inequality. These are states in which the following linear dependence applies:
+
+$$ \hat{P} | \psi \rangle = \lambda \hat{X} | \psi \rangle $$ 
+
+This generalized eigenvalue problem has many solutions which each saturate their own particular lower bound for the Cauchy-Schwartz. An example of such a wavefunction and its phase space description are plotted below. 
+
+Example minimum uncertainty state:
+
+![Wavefunction and phase space representation showing a minimum uncertainty state obtained by solving the generalized eigenvalue problem](20240521_minUncertainty.png)
 
 
-
- 
-
+Please feel free to explore more such states (as shown in the notebook), as well as any suggestions you may have on follow up work:
+indrasen@berkeley.edu
 
 
 ## References 
