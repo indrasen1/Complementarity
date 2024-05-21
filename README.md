@@ -20,7 +20,7 @@ We consider a 1D grid of points x = -M, -M+1, ... -1, 0, 1, ... M-1, M and the d
 
 $$ | \psi \rangle = \Sigma_x \psi_x | x \rangle $$
 
-where $$ | x \rangle $$ is a position basis vector. The basis is complete and orthonormal:
+where ket x is a position basis vector. The basis is complete and orthonormal:
 
 $$ \langle x' | x \rangle = \delta_{x',x} $$
 
@@ -30,11 +30,35 @@ $$ | p \rangle := \frac{1}{\sqrt{N}} \Sigma_x e^{2\pi j \frac{px}{N}} | x \rangl
 
 where p = -M, -M+1, ... M-1, M (similar to x). Each of the p-basis wavefunctions is a complex exponential, with a frequency proportional to p. The analogy with a physical momentum can be made more precise by thinking of traveling waves, but we could have chosen to call this something like a 'wavenumber' basis as well. 
 
-It's easy to verify that the representation of our wavefunction in the momentum basis is simply the discrete Fourier transform of the representation in the position basis:
+It can be verified that the representation of our wavefunction in the momentum basis is the discrete Fourier transform of the representation in the position basis:
 
+$$ \psi_p = \langle p | \psi \rangle = \frac{1}{\sqrt{N}} \Sigma_x \psi_x e^{-2 \pi j \frac{px}{N}} $$
 
+We find that if a particular wavefunction is narrow in one representation, it becomes widely spread in the other. This is illustrated with a wavefunction that has a sinc(x) representation in position space:
 
 ![Wavefunctions illustrating the uncertainty tradeoff in position and momentum representations](20240521_illustration.png)
+
+This tradeoff can be made more quantitative by considering the expectation values of the operators, and using the Cauchy Schwartz inequality (see Refs. 3 and 4 below). The position operator is:
+
+$$ \hat{X} = \Sigma_x x | x \rangle \langle x | $$
+
+This is a Hermitian operator and the probability for a particular x to be observed is given by the Born rule.
+
+Considering wavefunctions that are centered at 0, the spatial variance of the state can be expressed as:
+
+$$ \sigma_x^2 = \langle \psi | \hat{X}^2 | \psi \rangle $$
+
+Similarly, we express the momentum operator in position space. With a bit of calculation, it can be verified that:
+
+$$ \hat{P} = \Sigma_p p | p \rangle \langle p | = \Sigma_{x_1, x_2} | x_1 \rangle \langle x_2 | (1 - \delta_{x_i,x_j}) \frac{r^{-M}}{r-1} $$
+
+where:
+
+$$ r = e^{2 \pi j (x_1 - x_2) / N } $$
+
+
+
+ 
 
 
 
