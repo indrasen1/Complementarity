@@ -60,7 +60,7 @@ Then, for even zero-centered wavefunctions, the Cauchy-Schwartz inequality can b
 
 $$ \sigma_X^2 \sigma_P^2 = | \hat{X} | \psi \rangle |^2 | \hat{P} | \psi \rangle |^2 \ge | \langle \psi | \hat{X}^{*} \hat{P} | \psi \rangle |^2 $$
 
-The right hand side can be split into the real and imaginary parts and leads to expressions involving the commutator and anticommutator of the operators. This leads to the expression:
+The right hand side can be split into the real and imaginary parts and leads to expressions involving the commutator and anticommutator of the operators. This gives us the following expression for the uncertainty principle:
 
 $$ \sigma_X^2 \sigma_P^2 \ge \frac{1}{4}| \langle \psi | {\hat{X}, \hat{P}} | \psi \rangle |^2 + \frac{1}{4} | \langle \psi | [\hat{X}, \hat{P}] | \psi \rangle |^2 $$
 
