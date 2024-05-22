@@ -50,7 +50,7 @@ $$ \sigma_x^2 = \langle \psi | \hat{X}^2 | \psi \rangle $$
 
 Similarly, we express the momentum operator in position space. With a bit of calculation, it can be verified that:
 
-$$ \hat{P} = \Sigma_p p | p \rangle \langle p | = \Sigma_{x_1, x_2} | x_1 \rangle \langle x_2 | (1 - \delta_{x_i,x_j}) \frac{r^{-M}}{r-1} $$
+$$ \hat{P} = \Sigma_p p | p \rangle \langle p | = \Sigma_{x_1, x_2} | x_1 \rangle \langle x_2 | (1 - \delta_{x_1,x_2}) \frac{r^{-M}}{r-1} $$
 
 where:
 
